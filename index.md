@@ -2,7 +2,7 @@
 <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script> 
 </head>
 
-# Table of Contents
+# Contenido nuevo
 
 1.  [Definicion](#org8538b59)
 2.  [Teorema de Hall](#org10c9d61)
