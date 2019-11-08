@@ -1,0 +1,51 @@
+% Created 2019-11-07 jue 18:48
+% Intended LaTeX compiler: pdflatex
+\documentclass[presentation]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usetheme{default}
+\author{Invitado}
+\date{\today}
+\title{Emparejamientos}
+\hypersetup{
+ pdfauthor={Invitado},
+ pdftitle={Emparejamientos},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 25.2.2 (Org mode 9.2.3)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+
+\begin{frame}[label={sec:org61e1c88}]{Definicion}
+En una gráfica \(G\), un \alert{emparejamiento} es una coleccion de aristas ajenas.
+Decimos que el emparejamiento \(M\) es \alert{perfecto} si todo
+vertice de \(G\) está en alguna arista de \(M\).
+
+Sea \(G=(A,B)\) una gráfica bipartita. Dado \(S\subseteq A\),
+denotamos con \(N(S)\) al conjunto \(\{y\in B\mid\text{ existe }x\in
+A\text{ con }y\sim x\}\)
+\end{frame}
+
+\begin{frame}[label={sec:org7f20916}]{Teorema de Hall}
+Sea \(G=(A,B)\) una gráfica bipartita con \(|A|=|B|\). Entonces existe
+un emparejamiento perfecto en \(G\) si y solo si para todo
+\(S\subseteq A\) se tiene que \(|N(s)|\geq |S|\) 
+\end{frame}
+\end{document}
