@@ -194,6 +194,7 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script> 
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -240,7 +241,6 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
-<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script> 
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         displayAlign: "center",
