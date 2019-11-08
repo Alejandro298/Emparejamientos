@@ -1,6 +1,6 @@
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
-    tex2jax: {inlineMath: [["$","$"],["\(","\)"]]}
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
   });
 </script>
 <script type="text/javascript" src="../MathJax.js?config=TeX-AMS_HTML-full"></script>
@@ -21,8 +21,8 @@
 
 # Definicion
 
-En una gráfica \(G\), un **emparejamiento** es una coleccion de aristas ajenas.
-Decimos que el emparejamiento \(M\) es **perfecto** si todo
+En una gráfica $G$, un **emparejamiento** es una coleccion de aristas ajenas.
+Decimos que el emparejamiento $M$ es **perfecto** si todo
 vertice de \(G\) está en alguna arista de \(M\).
 
 Sea \(G=(A,B)\) una gráfica bipartita. Dado \(S\subseteq A\),
