@@ -268,7 +268,7 @@ for the JavaScript code in this tag.
 <div id="content">
 <h1 class="title">Emparejamientos</h1>
 <div id="table-of-contents">
-<h2>Table of Contents</h2>
+<h2>Contenidos</h2>
 <div id="text-table-of-contents">
 <ul>
 <li><a href="#org58874da">1. Definicion</a></li>
